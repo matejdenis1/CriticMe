@@ -1,0 +1,87 @@
+.notification{
+    width: 100px;
+    height: 50px;
+    border: #2c2f39;
+}
+.ratingPanel{
+    padding: 1em;
+    text-align: center;
+    color: rgba(247, 241, 241, 0.967);
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+    background: #2c2f39;
+}
+.ratingText{
+    font-size: 13pt;
+}
+.homeButton{
+    background-color: #5a26d2;
+    border: none;
+    color: white;
+    font-size: 20pt;
+    margin-top: 2em;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.homeButton:hover{
+    background: #714bca;
+}
+.ratingButton{
+    margin-top: 1em;
+    background: #5a26d2;
+    border: none;
+    font-size: xx-large;
+    color: #fafafb;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.ratingButton:hover{
+    background: #714bca;
+}
+.ratingButton:focus{
+    background-color: #fafafb;
+    color: black;
+}
+.buttonGroup{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}.submitButton{
+    background-color: #5a26d2;
+    border: none;
+    color: white;
+    font-size: 20pt;
+    margin-top: 2em;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.submitButton:hover{
+    background-color: #582dbe;
+    color: white;
+}
+.submitButtonInActive{
+    background-color: #7b5aca;
+    border: none;
+    color: white;
+    font-size: 20pt;
+    margin-top: 2em;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    cursor: auto;
+}

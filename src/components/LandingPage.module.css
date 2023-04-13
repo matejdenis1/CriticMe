@@ -1,0 +1,29 @@
+.welcome{
+    text-align: center;
+    color: white;
+    font-size: 5vw;
+}
+.description{
+    text-align: center;
+    color: white;
+    font-size: 2vw;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto 0 auto;
+    text-decoration: none;
+    width: 100px;
+    height: 50px;
+    background-color: #333;
+    color:white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.link:hover{
+    background-color: #3d3c3c;
+    color: #d9d9d9;
+}

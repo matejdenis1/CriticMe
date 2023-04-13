@@ -1,0 +1,39 @@
+.block{
+    position: relative;
+    width: 500px;
+    height: auto;
+    background-color: white;
+    margin: 2rem auto;
+    background-color: #333;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+
+}
+.block h1{
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+}
+.block div{
+    border-top: 1px solid rgb(33, 32, 32);
+    padding: 2rem 4rem;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+.block div:hover{
+    color: rgb(247, 235, 235);
+    cursor: pointer;
+    background-color: #2d2a2a;
+}
+.block .close{
+    color: white;
+    position: absolute;
+    font-weight: bold;
+    font-size: 20pt;
+    right: 0;
+    margin: 1rem;   
+}
+.close:hover{
+    color: rgb(247, 235, 235);
+    cursor: pointer;
+}
